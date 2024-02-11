@@ -1,0 +1,19 @@
+Project
+│
+└── src
+    └── ru
+        ├── billing
+        │   ├── client
+        │   │   └── Main.java
+        │   ├── exceptions
+        │   └── stocklist
+        │       ├── Category.java
+        │       ├── GenericItem.java
+        │       ├── FoodItem.java
+        │       ├── TechnicalItem.java
+        │       └── ItemCatalog.java
+        │
+        └── lanit
+            └── warehouse
+                └── CatalogLoader.java
+                └── CatalogStubLoader.java

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_1/GroovyTask_1.iml" filepath="$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_1/GroovyTask_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_2/GroovyTask_2.iml" filepath="$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_2/GroovyTask_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_3/GroovyTask_3.iml" filepath="$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_3/GroovyTask_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_4/GroovyTask_4.iml" filepath="$PROJECT_DIR$/GroovyPracticalTask/GroovyTask_4/GroovyTask_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBCPracticalTask/JDBCTask_1/JDBCTask_1.iml" filepath="$PROJECT_DIR$/JDBCPracticalTask/JDBCTask_1/JDBCTask_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-programming-ITMO.iml" filepath="$PROJECT_DIR$/.idea/Java-programming-ITMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SixthPracticalTask/Task6_1/Task6_1.iml" filepath="$PROJECT_DIR$/SixthPracticalTask/Task6_1/Task6_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SixthPracticalTask/Task6_2/Task6_2.iml" filepath="$PROJECT_DIR$/SixthPracticalTask/Task6_2/Task6_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SixthPracticalTask/Task6_3/Task6_3.iml" filepath="$PROJECT_DIR$/SixthPracticalTask/Task6_3/Task6_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SixthPracticalTask/Task6_3_2/Task6_3_2.iml" filepath="$PROJECT_DIR$/SixthPracticalTask/Task6_3_2/Task6_3_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondPracticalTask/Task_1_1/Task_1_1.iml" filepath="$PROJECT_DIR$/SecondPracticalTask/Task_1_1/Task_1_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondPracticalTask/Task_1_2/Task_1_2.iml" filepath="$PROJECT_DIR$/SecondPracticalTask/Task_1_2/Task_1_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstPracticalTask/Task_2/Task_2.iml" filepath="$PROJECT_DIR$/FirstPracticalTask/Task_2/Task_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondPracticalTask/Task_2_1/Task_2_1.iml" filepath="$PROJECT_DIR$/SecondPracticalTask/Task_2_1/Task_2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondPracticalTask/Task_2_2/Task_2_2.iml" filepath="$PROJECT_DIR$/SecondPracticalTask/Task_2_2/Task_2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondPracticalTask/Task_2_3/Task_2_3.iml" filepath="$PROJECT_DIR$/SecondPracticalTask/Task_2_3/Task_2_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstPracticalTask/Task_3/Task_3.iml" filepath="$PROJECT_DIR$/FirstPracticalTask/Task_3/Task_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FourthPracticalTask/Task_4_1/Task_4_1.iml" filepath="$PROJECT_DIR$/FourthPracticalTask/Task_4_1/Task_4_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FourthPracticalTask/Task_4_2/Task_4_2.iml" filepath="$PROJECT_DIR$/FourthPracticalTask/Task_4_2/Task_4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FourthPracticalTask/Task_4_3/Task_4_3.iml" filepath="$PROJECT_DIR$/FourthPracticalTask/Task_4_3/Task_4_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstPracticalTask/Task_5_1/Task_5_1.iml" filepath="$PROJECT_DIR$/FirstPracticalTask/Task_5_1/Task_5_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstPracticalTask/Task_5_2/Task_5_2.iml" filepath="$PROJECT_DIR$/FirstPracticalTask/Task_5_2/Task_5_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdPracticalTask/ThirdTask_1_1/ThirdTask_1_1.iml" filepath="$PROJECT_DIR$/ThirdPracticalTask/ThirdTask_1_1/ThirdTask_1_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdPracticalTask/ThirdTask_2_1/ThirdTask_2_1.iml" filepath="$PROJECT_DIR$/ThirdPracticalTask/ThirdTask_2_1/ThirdTask_2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdPracticalTask/ThirdTask_3_1/ThirdTask_3_1.iml" filepath="$PROJECT_DIR$/ThirdPracticalTask/ThirdTask_3_1/ThirdTask_3_1.iml" />
+    </modules>
+  </component>
+</project>
