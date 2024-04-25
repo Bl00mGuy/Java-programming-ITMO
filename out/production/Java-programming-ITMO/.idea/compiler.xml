@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LaboratorySecond" />
+        <module name="SecondLaboratory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dao" target="20" />
-      <module name="SecondLaboratory" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>

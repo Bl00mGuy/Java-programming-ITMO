@@ -1,3 +1,5 @@
+package FirstPracticalTask.Task_1;
+
 public class Main{
     public static void main(String[] args){
         byte v_byte=120;
