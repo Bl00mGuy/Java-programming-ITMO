@@ -1,22 +1,21 @@
 package org.example.dao;
 
-import org.example.model.Cat;
+import org.example.model.Owner;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import java.util.List;
-import java.util.UUID;
 
-public class HibernateCatDAO implements CatDAO {
+public class HibernateIOwnerDAO implements IOwnerDAO {
     private final SessionFactory sessionFactory;
 
-    public HibernateCatDAO(SessionFactory sessionFactory) {
+    public HibernateIOwnerDAO(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }
 
     @Override
-    public Cat save(Cat cat) {
+    public Owner save(Owner cat) {
         try (Session session = sessionFactory.openSession()) {
             Transaction transaction = session.beginTransaction();
             session.saveOrUpdate(cat);
@@ -29,7 +28,7 @@ public class HibernateCatDAO implements CatDAO {
     }
 
     @Override
-    public void delete(Cat cat) {
+    public void delete(Owner cat) {
         try (Session session = sessionFactory.openSession()) {
             Transaction transaction = session.beginTransaction();
             session.delete(cat);
@@ -40,9 +39,9 @@ public class HibernateCatDAO implements CatDAO {
     }
 
     @Override
-    public Cat findById(UUID id) {
+    public Owner findById(int id) {
         try (Session session = sessionFactory.openSession()) {
-            return session.get(Cat.class, id);
+            return session.get(Owner.class, id);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
@@ -50,9 +49,9 @@ public class HibernateCatDAO implements CatDAO {
     }
 
     @Override
-    public List<Cat> findAll() {
+    public List<Owner> findAll() {
         try (Session session = sessionFactory.openSession()) {
-            return session.createQuery("FROM Cat", Cat.class).list();
+            return session.createQuery("FROM Owner", Owner.class).list();
         } catch (Exception e) {
             e.printStackTrace();
             return null;

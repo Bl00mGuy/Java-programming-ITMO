@@ -1,13 +1,24 @@
 package org.example.service;
 
-import org.example.model.Cat;
+import org.example.dao.HibernateIOwnerDAO;
 import org.example.model.Owner;
 
-import java.time.LocalDate;
-import java.util.List;
+public class OwnerService implements IOwnerService {
+    private final HibernateIOwnerDAO ownerDAO;
 
-public interface OwnerService {
-    Owner registerOwner(String name, LocalDate birthDate);
-    List<Owner> findAllOwners();
-    List<Cat> findCatsByOwner(Owner owner);
+    public OwnerService(HibernateIOwnerDAO ownerDAO) {
+        this.ownerDAO = ownerDAO;
+    }
+
+    public Owner getOwner(int id) {
+        return ownerDAO.findById(id);
+    }
+
+    public void saveOwner(Owner owner) {
+        ownerDAO.save(owner);
+    }
+
+    public void deleteOwner(Owner owner) {
+        ownerDAO.delete(owner);
+    }
 }
